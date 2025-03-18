@@ -1,0 +1,146 @@
+:root {
+    --green: hsl(118, 85%, 33%);
+    --green__background: hsl(118, 70%, 52%);
+
+}
+
+
+
+body {
+    margin: 0;
+    background-color: var(--green__background);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEAADERRRR*/
+.nav__header {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--green);
+
+}
+
+.nav__header img {
+    width: 5rem;
+}
+
+.nav__header img:hover {
+    transform: scale(1.1);
+    transition: all .2s;
+
+}
+
+.nav__elements {
+    margin-right: 4rem;
+    font-size: 1.3rem;
+}
+
+
+.nav__childs {
+    display: inline-block;
+    margin: 1rem;
+
+}
+
+.nav__childs a {
+    transition: all .2s;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav__childs a:hover {
+    color: rgb(201, 226, 91);
+}
+
+
+/*Parte del Banner*/
+.article__card {
+    margin: 2%;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.article__container {
+    border-radius: 30px;
+    width: 35%;
+    padding: 20px;
+}
+
+.article__title {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    font-size: 3cqb;
+    font-style: italic;
+    
+}
+
+.article__title:hover {
+    color: rgb(201, 226, 91);
+    transition: all .2s;
+
+}
+
+.article__paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+}
+
+.img__article {
+    margin-left: 7rem;
+    width: 40%;
+    border-radius: 10%;
+    box-shadow: 7px 8px 20px 0px rgba(2, 54, 18, 0.507);
+}
+
+.img__article:hover {
+    transform: scale(1.1);
+    transition: all .4s;
+}
+
+
+/*Parte del Diferencias*/
+.element__section {
+    background-color: var(--green);
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
+}
+
+.element__article {
+    display: flex;
+}
+
+.element__container {
+    padding: 60px;
+    text-align: center;
+}
+
+
+.element__visual {
+    justify-content: center;
+    margin: 0px;
+}
+
+.title__visual {
+    color: white;
+}
+
+.title__visual1 {
+    color: white;
+    font-size: 2rem;
+    padding-top: 1.6rem;
+}
+
+.paragraph__visual {
+    color: white;
+    text-align: center;
+    padding: 1rem 2.4rem;
+
+}
